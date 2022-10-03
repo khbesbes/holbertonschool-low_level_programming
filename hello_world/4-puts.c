@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -v with proper grammar, but the outcome is a piece of artxc
