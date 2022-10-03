@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * printf is formatted output conversion
+ * main - program that prints
+ * Return: 0
 */
-int main (void) 
+int main(void)
 {
-   printf("with proper grammar, but the outcome is a piece of art,\n");
-   return (0); 
+printf("with proper grammar, but the outcome is a piece of art,\n");
+return (0);
 }
