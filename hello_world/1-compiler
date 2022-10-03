@@ -1,0 +1,3 @@
+#!/bin/bash
+/usr/bin/gcc -c -g -std=c99 -Wall snmpy.o main.o -o snmpy
+
