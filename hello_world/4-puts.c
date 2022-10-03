@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main =write a C program prints
+ * main = write a C program that  prints
  *
  * Return:0
  */  
