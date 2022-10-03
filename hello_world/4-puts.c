@@ -1,4 +1,6 @@
+
 #include<stdio.h>
+
 /**
  * main = write a C program that  prints
  *
