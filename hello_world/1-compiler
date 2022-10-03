@@ -1,2 +1,2 @@
 #!/bin/bash
-/usr/bin/gcc -c -g -std=c90 -wall FILE.o main.o -o $CFILE
+/usr/bin/gcc -c -g -std=c90 -wall FILE.o main.c -o $CFILE
