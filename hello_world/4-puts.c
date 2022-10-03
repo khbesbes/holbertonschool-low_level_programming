@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -v "Programming is like building a multilingual puzzle
+int putchar "Programming is like building a multilingual puzzle
