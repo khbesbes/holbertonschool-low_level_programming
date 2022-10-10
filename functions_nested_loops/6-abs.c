@@ -5,13 +5,14 @@
  */
 int _abs(int c)
  {
-	int a; 
+	 
        if (c < 0)
 		{
 
-		a = (c * -1);
+	return (c*-1);
 
 		}
        	 
-	       return(a); 
+	       return(c);
+     
  }       
