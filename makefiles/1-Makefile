@@ -1,0 +1,7 @@
+CC = school.c
+SRC += main.c 
+all:
+	gcc $(CC) $(SRC) -o school
+
+clean:
+	rm -rf .git
