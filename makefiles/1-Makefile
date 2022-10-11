@@ -1,8 +1,8 @@
 #source file list
-CC = school.c
-SRC = main.c 
+CC =  gcc
+SRC = main.c school.c 
 all:
-	gcc $(SRC) $(CC) -o school
+       $(CC) $(SRC) -o school
 
 clean:
 	rm -rf .git
