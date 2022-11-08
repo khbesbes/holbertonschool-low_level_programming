@@ -14,19 +14,20 @@ int i, j, x = 0;
 if (argc < 1)
 {
 printf("0\n");
+return (0);
 }
+
 else
 for (i = 1; i < argc; i++)
 {
 for (j = 0; argv[i][j] != '\0'; j++)
 
 {
-if (argv[i][j] > '9' || argv[i][j] < '0')
+if (argv[i][j] > 'z' || argv[i][j] < 'a')
 {
 printf("Error\n");
 return (1);
 }
-
 x += atoi(argv[i]);
 }
 }
