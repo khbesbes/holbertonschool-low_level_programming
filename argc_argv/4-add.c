@@ -23,7 +23,7 @@ for (i = 1; i < argc; i++)
 for (j = 0; argv[i][j] != '\0'; j++)
 
 {
-if (argv[i][j] > 'z' || argv[i][j] < 'a')
+if (argv[i][j] < 'z' || argv[i][j] > 'a')
 {
 printf("Error\n");
 return (1);
