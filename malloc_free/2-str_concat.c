@@ -20,13 +20,11 @@ s2 = "";
 str = malloc((strlen(s1) + strlen(s2) + 1) * sizeof(char));
 if (str == 0)
 return (NULL);
-if (s1 == 0)
 for (i = 0; i < strlen(s1) ; i++)
 {
 *(str + i) = *(str + n);
 n++;
 }
-if (s2 == 0)
 for (j = 0; j < strlen(s2); j++)
 {
 *(str + j) = *(s2 + p);
