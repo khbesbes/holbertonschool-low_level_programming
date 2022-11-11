@@ -23,7 +23,7 @@ return (NULL);
 
 for (i = 0; i < strlen(s1); i++)
 {
-*(str + i) = *(s1+ n);
+*(str + i) = *(s1 + n);
 n++;
 }
 
