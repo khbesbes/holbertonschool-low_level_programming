@@ -1,18 +1,14 @@
 #include "main.h"
 /**
- *_abs:computes the absolute value of an integer
- *Retrun Always 0
+ * _abs - returns the digits
+ *
+ * @c: integer
+ * Retrun: abs of input
  */
 int _abs(int c)
- {
-	 
-       if (c < 0)
-		{
-
-	return (c*-1);
-
-		}
-       	 
-	       return(c);
-     
- }       
+{
+	if (c < 0)
+	return (c * -1);
+	else
+	return (c);
+}
