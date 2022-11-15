@@ -16,6 +16,7 @@ else if (n > 0)
 {
 for (i = 2 ; i <= n ; i++)
 _putchar('_');
+
 }
 _putchar('\n');
 }
