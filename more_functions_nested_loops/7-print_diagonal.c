@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * print_diagonal - draws a diagonal line on the terminal
- * @n: integer 
+ * @n: integer
  * Return: 0
 */
 void print_diagonal(int n)
 {
-int i,j;
+int i, j;
 if (n <= 0)
 {
 _putchar('\n');
