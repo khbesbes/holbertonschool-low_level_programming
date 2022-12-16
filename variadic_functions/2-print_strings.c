@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdio.h>
 
 /**
  * print_strings - Entry point
@@ -7,7 +8,7 @@
  *
  * @n: constant unsigned integer
  *
- * Description: 'print parameters.'
+ * Description: 'print parameters.
  *
  * Return: void
  */
