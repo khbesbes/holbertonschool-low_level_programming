@@ -3,7 +3,7 @@
  * _abs - returns the digits
  *
  * @c: integer
- * Retrun: abs of input
+ * Return: abs of input
  */
 int _abs(int c)
 {
