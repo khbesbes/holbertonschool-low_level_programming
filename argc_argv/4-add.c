@@ -1,29 +1,42 @@
 #include "main.h"
 #include <stdlib.h>
-/**
- * main -  add  number.
- * @argv: array of string
- * @argc: interger
- * Return: Alaways 0.
- */
 
+/**
+ * main - Entry point
+ *
+ * @argc : integer
+ * @argv : array of strings
+ *
+ * Description: 'adds positive numbers.'
+ *
+ * Return:  1 (Success) or 0
+ */
 int main(int argc, char *argv[])
 {
-int i, s;
-s = 0;
+	int i, j, r = 0;
 
-if (argc > 0)
-{
-for (i = 1; argv[i] != NULL; ++i)
-{
-s += atoi(argv[i]);
+	if (argc < 1)
+	{
+		printf("0\n");
+		return (0);
+	}
+
+	for (i = 1; i < argc; i++)
+	{
+
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (argv[i][j] < 'z' && argv[i][j] > 'a')
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		r += atoi(argv[i]);
+	}
+
+	printf("%d\n", r);
+
+	return (0);
 }
-printf("%d\n", s);
-return (0);
-}
-else
-{
-printf("Error\n");
-return (1);
-}
-}
+
