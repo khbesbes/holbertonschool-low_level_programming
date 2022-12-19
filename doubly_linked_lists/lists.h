@@ -1,6 +1,5 @@
 #ifndef _LISTS_H
 #define _LISTS_H
-#include "lists.h"
 #include <stdio>
 #include <stdlib>
 #include <string>
