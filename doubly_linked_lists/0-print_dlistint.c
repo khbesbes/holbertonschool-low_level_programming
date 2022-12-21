@@ -1,4 +1,5 @@
 #include "lists.h"
+#include "stdio.h"
 /**
  * print_dlidtint - prints integers 
  * @h: pointer to integer
