@@ -1,21 +1,22 @@
 #include "lists.h"
-#include "stdio.h"
 /**
- * print_listint - print all int of node list
- * @h: listint_t
+ * print_dlistint - print element of node list
+ * @h: dlistint
  * Return: size_t
  */
- size_t print_listint(const listint_t *h)
+size_t print_dlistint(const dlistint_t *h)
 {
+	const dlistint_t *tmp;
 	size_t i = 0;
-	const listint_t *c;
 
-	c = h;
-	while (c != NULL)
+	tmp = h;
+
+	while (tmp != NULL)
 	{
-		printf("%d\n", c->n);
-		c = c->next;
+		printf("%d\n", tmp->n);
+		tmp = tmp->next;
 		i++;
 	}
+
 	return (i);
 }
