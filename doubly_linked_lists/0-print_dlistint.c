@@ -1,9 +1,9 @@
 #include "lists.h"
 #include "stdio.h"
 /**
- * print_dlidtint - prints integers 
- * @h: pointer to integer
- * Return: data sturct.
+ * print_listint - print all int of node list
+ * @h: listint_t
+ * Return: size_t
  */
  size_t print_listint(const listint_t *h)
 {
