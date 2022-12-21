@@ -1,19 +1,21 @@
 #include "lists.h"
 
 /**
- * dlistint_len - counts number of nodes
- * @h: head of node
- * Return: number of nodes
+ * dlistint_len - get length of node list
+ * @h: constant of dlistint
+ * Return: size_t
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-	size_t count = 0;
+	const dlistint_t *tmp;
+	size_t i = 0;
 
-	while (h != NULL)
+	tmp = h;
+
+	while (tmp != NULL)
 	{
-		h = h->next;
-		count++;
+		tmp = tmp->next;
+		i++;
 	}
 
-	return (count);
-}
+	return (i);
