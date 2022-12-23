@@ -1,1 +1,1 @@
-pointers and arrays strings 
+pointers and arrays stringsg
